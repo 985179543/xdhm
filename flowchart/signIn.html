@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录</title>
+    <link rel="stylesheet" href="css/signIn.css">
+</head>
+<body>
+    <div class="page">
+        <div class="header">
+            <div class="header-top">
+                <div class="logo"></div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="sign_in">
+                <div class="left">
+                    <div class="title">
+                        <div class="title_1">檀香紫檀 清明山河图屏风</div>
+                        <div class="title_2">浙江艺术紫檀博物馆镇馆之宝</div>
+                    </div>
+                    <div class="left_bg"></div>
+                </div>
+                <div class="right">
+                    <div class="logo"></div>
+                    <p>尊敬的客户您好！请输入您订单上的手机号码及签订合同时,旭东红木发送给您的验证码。若有疑问，请联系客服。</p>
+                    <input type="text" placeholder="手机号码">
+                    <input type="text" placeholder="验证码">
+                    <button id="btn" type="submit">查询</button>
+                    <div class="foget">忘记验证码?</div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            
+        </div>
+    </div>
+    <script>
+        document.getElementById('btn').addEventListener('click',
+            function () {
+                window.location.href="index.html";
+            }
+        )
+    </script>
+</body>
+</html>

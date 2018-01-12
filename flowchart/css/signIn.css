@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0; 
+    text-align: center;
+}
+html { 
+    /* overflow-x: hidden;  */
+    overflow-y: auto; 
+    font-size: 12px; 
+}
+ul li {
+    list-style: none;
+}
+a, a:hover {
+    text-decoration: none;
+    font-family: "微软雅黑";
+}
+.page {
+    display: flex;
+}
+/* 头部 */
+.header {
+    margin: 0 auto;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.header-top {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(16, 16, 13);
+}
+.header-top .logo {
+    width: 16.98vw;
+    height: 56px;
+    margin-left: 22.40vw;
+    margin-top: 7px;
+    background-image: url(../img/logo_03.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: left;
+}
+/* 主体 */
+
+.content {
+    width: 100%;
+    flex: 1;
+    height: 520px;
+    background-image: url(../img/旭东红木登录页面_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.content .sign_in {
+    width: 65%;
+    height: 300px;
+    margin: 120px auto;
+    /* box-shadow: 5px 5px 5px 5px rgb(228, 228, 228); */
+    box-shadow: 0px 0px 4px 4px rgb(222, 222, 222);
+}
+.sign_in .left {
+    width: 60%;
+    float: left;
+    height: 300px;
+    background-image: url(../img/旭东红木登录页面_backgroundimage_03.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.sign_in .left .title {
+    text-align: center;
+    width: 100%;
+    height: 70px;
+    margin-top: 10px;
+}
+.sign_in .left .title .title_1 {
+    font-weight: 500;
+    font-size: 25px;
+    color: #000000;
+}
+.sign_in .left .title .title_2 {
+    color: rgb(153, 153, 153);
+    font-size: 16px;
+}
+.sign_in .left .left_bg {
+    width: 100%;
+    height: 230px;
+    background-image: url(../img/ppv_03.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.sign_in .right {
+    float: left;
+    width: 40%;
+    height: 100%;
+    background-color: #ffffff;
+}
+.sign_in .right .logo {
+    background-image: url(../img/旭东红木登录页面_logo_03.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 17%;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.sign_in .right p {
+    color: rgb(153, 153, 153);
+    text-indent: 2em;
+    padding: 10px;
+}
+.sign_in .right input {
+    color: rgb(153, 153, 153);
+    border: none;
+    border-bottom: 1px solid rgb(153, 153, 153);
+    width: 80%;
+    margin: 0 auto;
+    height: 30px;
+    margin: 5px;
+}
+input::-webkit-input-placeholder {
+    /* WebKit browsers */
+    text-align: left;
+}
+.sign_in .right button {
+    margin: 0 auto;
+    width: 80%;
+    height: 30px;
+    background-color: #f2bc56;
+    color: #ffffff;
+    border-radius: 4px;
+}
+.sign_in .right .foget {
+    margin: 0 auto;
+    width: 80%;
+    text-align: right;
+    color: #ff7878;
+}
+
+/* 尾部 */
+.footer {
+    width: 100%;
+    height: 140px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url(../img/1_43.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

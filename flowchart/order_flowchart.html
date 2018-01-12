@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/order_flowchart.css">
+        <!-- <script src="js/jQuery-2.2.0.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/bootstrap/bootstrap.min.js" type="text/javascript" charset="utf-8"></script> -->
+        <script src="js/raphael-min.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/flowchart-latest.js"></script>
+        <title>Document</title>
+        </head>
+        <body>
+            <div class="container">
+                <div class="row">
+                    <div class="title col-md-2">订单进度流程图</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 img_1"></div>
+                </div>
+                <div class="row">
+                    <div class="banner">
+                        <div class="bg">
+                            <svg width="100%" height="100%">  
+                                <script type="text/ecmascript" a3:scriptImplementation="Adobe">  
+                                    function changeColor(evt) 
+                                    { 
+                                        window.location.href="archives_details.html";//点击svg跳转页面
+                                    } 
+                                </script>
+                                <image x="80" y="25" width="80" height="45" background-size="contain"
+                                    xlink:href="img/旭东红木_03.png"/>
+                                <text style="fill:#fff;font-size:16px;text-align:center;" x="105" y="53" onclick= "changeColor()">选料</text>
+                                <g fill="yellow" stroke="#8f0100" stroke-width="2">
+                                    <path stroke-linecap="butt" d="M120 60 v40  " />
+                                    <path stroke-linecap="round" fill="#8f0100" d="M122 100 l-2 6 l-2 -6z" />
+                                </g>
+                                <image x="80" y="100" width="80" height="45" background-size="contain"
+                                    xlink:href="img/旭东红木_03.png"/>
+                                <text style="fill:#fff;font-size:16px;text-align:center;" x="96" y="128" onclick= "changeColor(evt)">开小料</text>
+                                <g fill="yellow" stroke="#8f0100" stroke-width="2">
+                                    <path stroke-linecap="butt" d="M120 136 v40  " />
+                                    <path stroke-linecap="round" fill="#8f0100" d="M122 176 l-2 6 l-2 -6z" />
+                                </g>
+                                <image x="80" y="177" width="80" height="45" background-size="contain"
+                                    xlink:href="img/旭东红木_07.png"/>
+                                <text style="fill:#fff;font-size:16px;text-align:center;" x="105" y="205" onclick= "changeColor(evt)">拼版</text>
+                                <g fill="yellow" stroke="#8f0100" stroke-width="2">
+                                    <path stroke-linecap="butt" d="M120 212 v40  " />
+                                    <path stroke-linecap="round" fill="#8f0100" d="M122 252 l-2 6 l-2 -6z" />
+                                </g>
+                                <image x="80" y="254" width="80" height="45" background-size="contain"
+                                    xlink:href="img/旭东红木_10.png"/>
+                                <text style="fill:#797979;font-size:16px;text-align:center;" x="105" y="282" onclick= "">粗砂</text>
+                                <g fill="yellow" stroke="#e2e2e2" stroke-width="2">
+                                    <path stroke-linecap="butt" d="M160 276 h30  " />
+                                    <path stroke-linecap="round" fill="#e2e2e2" d="M190 274 l6 2 l-6 2z" />
+                                </g>
+                                <image x="200" y="254" width="80" height="45" background-size="contain"
+                                    xlink:href="img/旭东红木_10.png"/>
+                                <text style="fill:#797979;font-size:16px;text-align:center;" x="208" y="282" onclick= "">木工加工</text>
+                                <g fill="yellow" stroke="#e2e2e2" stroke-width="2">
+                                    <path stroke-linecap="butt" d="M240 262 v-40  " />
+                                    <path stroke-linecap="round" fill="#e2e2e2" d="M242 222 l-2 -6 l-2 6z" />
+                                </g>
+                                <image x="200" y="177" width="80" height="45" background-size="contain"
+                                    xlink:href="img/旭东红木_10.png"/>
+                                <text style="fill:#797979;font-size:16px;text-align:center;" x="216" y="205" onclick= "">手工雕</text>
+                                <g fill="yellow" stroke="#e2e2e2" stroke-width="2">
+                                    <path stroke-linecap="butt" d="M240 185 v-40  " />
+                                    <path stroke-linecap="round" fill="#e2e2e2" d="M242 145 l-2 -6 l-2 6z" />
+                                </g>
+                                <image x="200" y="100" width="80" height="45" background-size="contain"
+                                    xlink:href="img/旭东红木_10.png"/>
+                                <text style="fill:#797979;font-size:16px;text-align:center;" x="224" y="128" onclick= "">打磨</text>
+                                <g fill="yellow" stroke="#e2e2e2" stroke-width="2">
+                                    <path stroke-linecap="butt" d="M240 108 v-40  " />
+                                    <path stroke-linecap="round" fill="#e2e2e2" d="M242 68 l-2 -6 l-2 6z" />
+                                </g>
+                                <image x="200" y="23" width="80" height="45" background-size="contain"
+                                    xlink:href="img/旭东红木_10.png"/>
+                                <text style="fill:#797979;font-size:16px;text-align:center;" x="224" y="51" onclick= "">细砂</text>
+                                <g fill="yellow" stroke="#e2e2e2" stroke-width="2">
+                                    <path stroke-linecap="butt" d="M280 47 h30  " />
+                                    <path stroke-linecap="round" fill="#e2e2e2" d="M310 45 l6 2 l-6 2z" />
+                                </g>
+                                <image x="320" y="23" width="80" height="45" background-size="contain"
+                                    xlink:href="img/旭东红木_10.png"/>
+                                <text style="fill:#797979;font-size:16px;text-align:center;" x="344" y="51" onclick= "">平磨</text>
+                                <g fill="yellow" stroke="#e2e2e2" stroke-width="2">
+                                    <path stroke-linecap="butt" d="M360 60 v40  " />
+                                    <path stroke-linecap="round" fill="#e2e2e2" d="M362 100 l-2 6 l-2 -6z" />
+                                </g>
+                                <image x="320" y="100" width="80" height="45" background-size="contain"
+                                    xlink:href="img/旭东红木_10.png"/>
+                                <text style="fill:#797979;font-size:16px;text-align:center;" x="323" y="128" onclick= "">上漆(打蜡)</text>
+                                <g fill="yellow" stroke="#e2e2e2" stroke-width="2">
+                                    <path stroke-linecap="butt" d="M360 136 v40  " />
+                                    <path stroke-linecap="round" fill="#e2e2e2" d="M362 176 l-2 6 l-2 -6z" />
+                                </g>
+                                <image x="320" y="177" width="80" height="45" background-size="contain"
+                                    xlink:href="img/旭东红木_10.png"/>
+                                <text style="fill:#797979;font-size:16px;text-align:center;" x="328" y="205" onclick= "">质检入库</text>
+                                <g fill="yellow" stroke="#e2e2e2" stroke-width="2">
+                                    <path stroke-linecap="butt" d="M360 212 v40  " />
+                                    <path stroke-linecap="round" fill="#e2e2e2" d="M362 252 l-2 6 l-2 -6z" />
+                                </g>
+                                <image x="320" y="254" width="80" height="45" background-size="contain"
+                                    xlink:href="img/旭东红木_10.png"/>
+                                <text style="fill:#797979;font-size:16px;text-align:center;" x="328" y="282" onclick= "">北方仓库</text>
+                                <g fill="yellow" stroke="#e2e2e2" stroke-width="2">
+                                    <path stroke-linecap="butt" d="M400 276 h30  " />
+                                    <path stroke-linecap="round" fill="#e2e2e2" d="M430 274 l6 2 l-6 2z" />
+                                </g>
+                                <image x="440" y="254" width="80" height="45" background-size="contain"
+                                    xlink:href="img/旭东红木_10.png"/>
+                                <text style="fill:#797979;font-size:16px;text-align:center;" x="448" y="282" onclick= "">二次烘干</text>
+                                <g fill="yellow" stroke="#e2e2e2" stroke-width="2">
+                                    <path stroke-linecap="butt" d="M480 262 v-40  " />
+                                    <path stroke-linecap="round" fill="#e2e2e2" d="M482 222 l-2 -6 l-2 6z" />
+                                </g>
+                                <image x="440" y="177" width="80" height="45" background-size="contain"
+                                    xlink:href="img/旭东红木_10.png"/>
+                                <text style="fill:#797979;font-size:16px;text-align:center;" x="464" y="205" onclick= "">包装</text>
+                                <g fill="yellow" stroke="#e2e2e2" stroke-width="2">
+                                    <path stroke-linecap="butt" d="M480 185 v-40  " />
+                                    <path stroke-linecap="round" fill="#e2e2e2" d="M482 145 l-2 -6 l-2 6z" />
+                                </g>
+                                <image x="440" y="100" width="80" height="45" background-size="contain"
+                                    xlink:href="img/旭东红木_10.png"/>
+                                <text style="fill:#797979;font-size:16px;text-align:center;" x="464" y="128" onclick= "">出库</text>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+	    </body>
+	</html>

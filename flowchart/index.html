@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>旭东红木</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/index.css">
+	<script src="js/jQuery-2.2.0.min.js" type="text/javascript" charset="utf-8"></script>
+	<!-- <script src="js/bootstrap/bootstrap.min.js" type="text/javascript" charset="utf-8"></script> -->
+</head>
+<body>
+	<div class="header">
+		<div class="header-top">
+			<div class="logo"></div>
+			<div class="welcome">旭东红木欢迎您</div>
+			<a href="signIn.html" class="exit">退出</a>
+		</div>
+		<div class="header-bg"></div>
+	</div>
+	<div class="row">
+		<div class="span6">
+			<ul class="breadcrumb">
+				<li>
+					<span class="divider">您现在的位置&nbsp; : &nbsp;&nbsp;</span>
+					<a href="javascript:;">订单中心</a> 
+				</li>
+				<li class="active"><a class="active" href="javascript:;" target="_parent">订单进度</a></li>
+				<li><a href="javascript:;">订单进度流程图</a></a></li>
+			</ul>
+		</div>
+	</div>
+	
+	<div class="content">
+		<div class="nav-left">
+			<ul>
+				<li class="nav_menu active">订单进度</li>
+				<li class="nav_menu">订单档案</li>
+			</ul>
+		</div>
+		<div class="line"></div>
+		<div class="null"></div>
+		<iframe src="progress_speed.html" class="body" id="myIframe" name="myIframe"></iframe>
+	</div>
+	
+
+	<!-- <iframe src="main.html" class="body">
+	
+	</iframe> -->
+	<div class="footer"></div>
+	<script>
+		$(document).ready(function () {
+			$('.nav_menu').bind("click",function() {
+				let that = this;
+				let index = $(".nav_menu").index(this);
+				if(index == 0) {
+					$(".body").attr("src", "progress_speed.html");
+				} else if (index == 1) {
+					$(".body").attr("src", "order_archives.html");
+				}
+				$('.nav_menu').each(function () {
+					this.className = this == that?
+					'nav_menu active' : 'nav_menu';
+				})
+			});
+			$('.breadcrumb>li').bind("click", function() {
+				$('.breadcrumb').find("li>a").removeClass("active");
+				$(this).find("a").addClass("active");
+			})
+		})
+	</script>
+</body>
+</html>

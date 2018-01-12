@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.title {
+    color: #333333;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+.img_1 {
+    margin: 0 auto;
+    width: 96%;
+    height: 12px;
+    background-image: url(../img/tj_15.png);
+    background-repeat: no-repeat;
+    margin-bottom: 8px;
+}
+.hr_row{
+    padding-bottom: 8%;
+    padding-top: 8%;
+}
+.custom_hr_img{
+    width: 128px;
+    height: 18px;
+}
+.row{
+    overflow: hidden;
+    margin-left:0px;
+    margin-right:0px;
+}
+.order_number_time_group span:first-of-type{
+    color: #999999;
+    font-size: 14px;
+}
+.order_number_time_group span:last-of-type{
+    color: #333333;
+    font-size: 14px;
+}
+.order_number_time_group .row{
+    margin-bottom: 3%;
+}
+.procedure_introduce{
+    line-height: 2;
+}
+
+.strong_font{
+    margin-top: 2%;
+    margin-bottom: 4%;
+    font-size: 14px;
+    color: #333333;
+}
+
+.font_more_txt{
+    color: #999999;
+}
+.custom_clean{
+    clear: both;
+}
+
+.quality_checking{
+    line-height: 2;
+}
+
+.custom_teacher_img{
+    width: 70px;
+    height: 70px;
+}
+
+.custom_table{
+    width: 60%;
+    margin-left: 32%;
+
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+    border-top-color: #ffffff;
+    border-left-color: #ffffff;
+}
+.table-responsive{
+    border-right-width: 0px;
+}
+.work_exp{
+    margin-top: 3%;
+}
+.custom_font_weight{
+    font-size: 14px;
+}
+.video_box{
+    margin-top: 6%;
+}
+.custom_input{
+    margin-bottom: 0;
+    height: 39px;
+    padding-left: 0;
+}
+#exampleInputAmount{
+    font-size: 14px;
+    box-shadow: none;
+    padding-left: 0;
+    border-color: #f7f7f7;
+    background-color: #f7f7f7;
+}
+.custom_word{
+    color: #dc9d23;
+    background-color: #f7f7f7;
+    border-color: #f7f7f7;
+}
+.custom_fix_container{
+    background-color: #f7f7f7;
+}
+.custom_nav_bar{
+    border: 0;
+}
+
+.custom_br_lg{
+    height: 9px;
+    background-color: #efefef;
+}
+.custom_user_img{
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+}
+.custom_user_name{
+    color: #666666;
+    line-height: 40px;
+    margin-left: 3%;
+}
+.custom_time{
+    color: #666666;
+    line-height: 40px;
+}
+.user_word{
+    line-height: 1;
+    margin-left: 14.4%;
+    font-weight: 400;
+}
+.custom_special{
+    margin-top: 1%;
+    width: 6px;
+    height: 12px;
+}
+.reply{
+    color: #666666;
+}
+.reply_word{
+    margin-top: 2%;
+    font-weight: 400;
+}
+.reply_other{
+    margin-top: 2%;
+    margin-left: 15%;
+}
